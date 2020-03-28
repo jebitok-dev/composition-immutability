@@ -10,14 +10,14 @@ function printIf(predicate) {
 	};
 }
 
-function when(fn) {
-	return function(predicate){
-		return function(...args){
-			if (predicate(...args))
-				return fn(...args)
-			}
-		}
-	}
+// function when(fn) {
+// 	return function(predicate){
+// 		return function(...args){
+// 			if (predicate(...args))
+// 				return fn(...args)
+// 			}
+// 		}
+// 	}
 
 
 function isShortEnough(str) {
